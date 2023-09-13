@@ -4,21 +4,104 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro&family=Merriweather:ital,wght@1,300&family=Oswald:wght@300&family=Quicksand:wght@600&family=Roboto+Condensed:wght@300;400&family=Yanone+Kaffeesatz:wght@200&family=Zilla+Slab&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <div>
+    <div class="conteiner-principal" style="background-image: url(./asset/fondo.jpg);">
+        <header class="cabeza">
+            <section class="navbar1 row">
+                <nav class="navbar navbar-expand-lg bg-color d-flex justify-content-center col-sm-12 col-md-12 col-lg-12 col-xl-12" >
+                    <div class="container-fluid">
+                    <img class="logo" src="./asset/Logo.png" alt="logo">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="d-flex justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="navbar1 nav-link active" aria-current="page" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar1 nav-link" href="./pages/conocenos.html">Conocenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar1 nav-link" href="#">Reseñas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar1 nav-link" href="#">Futuro</a>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>
+            </section>
+            <section class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h1 >Tus camionetas mas seguras con solid box</h1>
+                <p>La tapa de esta camioneta ofrece un nivel de seguridad excepcional que te brinda total tranquilidad en tus viajes. Su robusta construcción y cerraduras de alta calidad garantizan que nadie pueda acceder a tu carga sin tu autorización.</p>
+              </div>
+            </section>
 
-        <header>
-          
+
+
+
 
         </header>
 
 
 
+        
+        <main class="conteiner">
+            <section class="galery">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                  <div class="carusell">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="./asset/chata.4.jpg" class="d-block w-100" alt="chata 1">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./asset/chata.2.jpg" class="d-block w-100" alt="chata 2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./asset/chata.3.jpg" class="d-block w-100" alt="chata 3">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+            </section>
+            <section class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <p class="map1">Casa Central CABA
+                    Juan B Justo 3222 - Capital Federal - Buenos Aires</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.733382747838!2d-58.450935!3d-34.599525!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca087b21e429%3A0x904b89ff15eae512!2sAv.%20Juan%20Bautista%20Justo%203222%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses-419!2sus!4v1693519172772!5m2!1ses-419!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <p class="map1"> Fábrica
+                        Juan XXIII (ex Biedma) 7547 - Rosario - Santa Fe</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13388.519219521482!2d-60.720483!3d-32.973977!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ace2b111a33f%3A0x112fb85f0289e342!2sJuan%20XXIII%20(ex%20Biedma)%207547%2C%20Rosario%2C%20Santa%20Fe%2C%20Argentina!5e0!3m2!1ses-419!2sus!4v1693519264210!5m2!1ses-419!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
 
-        <main>
+
+
+
 
 
 
@@ -26,21 +109,42 @@
         </main>
 
 
-        <footer>
+
+        <footer class="row">
+            <section class="contactos col-sm-12 col-md-12 col-lg-12 col-xl-12"  >
+                <p>Dirección de Contacto:
+
+                    Juan XXIII (ex Biedma) 7547
+                    
+                    CP: 2000
+                    
+                    Rosario, Santa Fe, Argentina
+                    
+                    info@solid-box.com.ar
+                    
+                    Teléfonos de Contacto:
+                    
+                    (+54) 9 341-2170733
+                    
+                    (+54) 9 1164083333
+                    
+                    (+54) 9 1157317373
+                </p>
+
+            </section>
 
 
 
 
+
+            
 
         </footer>
 
 
 
-
-
-
     </div>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>
