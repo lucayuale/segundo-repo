@@ -33,3 +33,43 @@
     color: white;
     font-size: 30px;
 }
+
+/* mobile */
+@media (min-width: 300px) and (max-width: 576px){
+    .logo{
+        width: 20%;
+        height: 20%;
+    }
+    .map1{
+        width: 80%;
+        height: 80%;
+    }
+
+
+
+}
+
+/* tablet */
+
+@media (min-width: 577px) and (max-width: 992px){
+    .map1{
+        width: 80%;
+        height: 70%;
+    }
+    .logo{
+        width: 20%;
+        height: 20%;
+    }
+
+
+
+
+}
+
+
+/* PC */
+
+@media (min-width: 993px) and (max-width: 1200px){
+
+
+}
