@@ -21,7 +21,7 @@
         font-family: 'Yanone Kaffeesatz', sans-serif;
         font-family: 'Zilla Slab', serif;
         color: $blanco;
-        font-size: 30px;
+        @include fuentes(30px);
     }
 
 }

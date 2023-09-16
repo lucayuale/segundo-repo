@@ -1,0 +1,10 @@
+//@mixins > @include
+
+@mixin alto-ancho($an, $al){
+    width: $an;
+    height: $al;
+}
+
+@mixin fuentes($fon){
+    font-size: $fon;
+}

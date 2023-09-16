@@ -5,8 +5,7 @@
         margin-right: 8em;
     }
     &___logo{
-        width: 10%;
-        height: 10%;
+        @include alto-ancho(10%, 10%);
     }
     &___navbar1{
         font-family: 'Castoro', serif;
