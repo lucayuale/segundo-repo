@@ -1,4 +1,6 @@
 .conteiner-principal {
+  background-image: url(../asset/fondo.jpg);
+  margin-right: 0%;
   color: white;
 }
 .conteiner-principal___carusell {
@@ -21,6 +23,10 @@
   font-size: 30px;
 }
 
+.conteiner-principal-2 {
+  background-image: url(../asset/fondo.jpg);
+  margin-right: 0%;
+}
 .conteiner-principal-2___tarjetas {
   font-family: "Castoro", serif;
   font-family: "Merriweather", serif;

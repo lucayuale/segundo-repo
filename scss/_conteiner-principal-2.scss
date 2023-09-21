@@ -1,4 +1,6 @@
 .conteiner-principal-2{
+    background-image: url(../asset/fondo.jpg);
+    @include margen(0%);
     &___tarjetas{
         font-family: 'Castoro', serif;
         font-family: 'Merriweather', serif;

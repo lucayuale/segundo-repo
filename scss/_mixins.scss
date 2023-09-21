@@ -8,3 +8,7 @@
 @mixin fuentes($fon){
     font-size: $fon;
 }
+
+@mixin margen($marg){
+    margin-right: $marg;
+}
