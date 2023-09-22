@@ -1,5 +1,6 @@
 
 .conteiner-principal{
+    background-image: url(../asset/fondo.jpg);
     color: white;
 }
 .carusell{
@@ -33,6 +34,23 @@
     color: white;
     font-size: 30px;
 }
+.conteiner-principal-2{
+    background-image: url(../asset/fondo.jpg);
+}
 .conteiner-principal-3{
     background-image: url(../asset/fondo.jpg);
+    color: white;
+}
+.list-1{
+    color: white;
+}
+.titulo-productos{
+    font-family: 'Castoro', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Zilla Slab', serif;
 }
