@@ -12,8 +12,8 @@
         font-family: 'Zilla Slab', serif;
     }
     &___list-1{
-        color: white;
-        
+        color: $blanco;
+        @include fuentes(20px);
     }
     
 }

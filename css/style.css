@@ -42,6 +42,7 @@
     color: white;
 }
 .list-1{
+    font-size: 20px;
     color: white;
 }
 .titulo-productos{
@@ -53,6 +54,14 @@
     font-family: 'Roboto Slab', serif;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-family: 'Zilla Slab', serif;
+}
+.conteiner-principal-4{
+    background-image: url(../asset/fondo.jpg);
+    color: white;
+}
+.formulario{
+    background-color: url(../asset/fondo.jpg);
+    color: white;
 }
 
 /* mobile */
