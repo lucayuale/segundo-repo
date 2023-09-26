@@ -1,0 +1,96 @@
+.conteiner-principal {
+  background-image: url(../asset/fondo.jpg);
+  margin-right: 0%;
+  color: white;
+}
+.conteiner-principal___carusell {
+  margin-left: 8em;
+  margin-right: 8em;
+}
+.conteiner-principal___logo {
+  width: 10%;
+  height: 10%;
+}
+.conteiner-principal___navbar1 {
+  font-family: "Castoro", serif;
+  font-family: "Merriweather", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: "Zilla Slab", serif;
+  color: white;
+  font-size: 30px;
+}
+
+.conteiner-principal-2 {
+  background-image: url(../asset/fondo.jpg);
+  margin-right: 0%;
+}
+.conteiner-principal-2___tarjetas {
+  font-family: "Castoro", serif;
+  font-family: "Merriweather", serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: "Zilla Slab", serif;
+  color: white;
+}
+.conteiner-principal-2___pie2 {
+  color: white;
+}
+.conteiner-principal-2___navbar1 {
+  font-family: "Castoro", serif;
+  font-family: "Merriweather", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: "Zilla Slab", serif;
+  color: white;
+  font-size: 30px;
+}
+
+.conteiner-principal-3 {
+  background-image: url(../asset/fondo.jpg);
+  color: white;
+}
+.conteiner-principal-3____titulo-productos {
+  font-family: "Castoro", serif;
+  font-family: "Merriweather", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Slab", serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: "Zilla Slab", serif;
+}
+.conteiner-principal-3___list-1 {
+  color: white;
+  font-size: 20px;
+}
+
+@media (min-width: 300px) and (max-width: 576px) {
+  .logo {
+    width: 20%;
+    height: 20%;
+  }
+  .map1 {
+    width: 80%;
+    height: 80%;
+  }
+}
+/* tablet */
+@media (min-width: 577px) and (max-width: 992px) {
+  .map1 {
+    width: 80%;
+    height: 70%;
+  }
+  .logo {
+    width: 20%;
+    height: 20%;
+  }
+}
+/* PC */
+
+/*# sourceMappingURL=main.css.map */

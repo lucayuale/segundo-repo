@@ -1,0 +1,29 @@
+.conteiner-principal-2{
+    background-image: url(../asset/fondo.jpg);
+    @include margen(0%);
+    &___tarjetas{
+        font-family: 'Castoro', serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-family: 'Zilla Slab', serif;
+        color: $blanco;
+    }
+
+    &___pie2{
+        color: $blanco;
+    }
+    &___navbar1{
+        font-family: 'Castoro', serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-family: 'Zilla Slab', serif;
+        color: $blanco;
+        @include fuentes(30px);
+    }
+
+}
