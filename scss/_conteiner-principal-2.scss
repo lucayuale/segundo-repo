@@ -1,7 +1,7 @@
 .conteiner-principal-2{
     background-image: url(../asset/fondo.jpg);
     @include margen(0%);
-    &___tarjetas{
+    .tarjetas{
         font-family: 'Castoro', serif;
         font-family: 'Merriweather', serif;
         font-family: 'Quicksand', sans-serif;
@@ -10,11 +10,13 @@
         font-family: 'Zilla Slab', serif;
         color: $blanco;
     }
-
-    &___pie2{
+    .logo{
+        @include alto-ancho(10%, 10%);
+    }
+    .pie2{
         color: $blanco;
     }
-    &___navbar1{
+    .navbar1{
         font-family: 'Castoro', serif;
         font-family: 'Merriweather', serif;
         font-family: 'Oswald', sans-serif;

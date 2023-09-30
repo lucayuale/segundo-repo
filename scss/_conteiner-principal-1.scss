@@ -2,14 +2,14 @@
     background-image: url(../asset/fondo.jpg);
     @include margen(0%);
     color: $blanco;
-    &___carusell{
+    .carusell{
         margin-left: 8em;
         margin-right: 8em;
     }
-    &___logo{
+    .logo{
         @include alto-ancho(10%, 10%);
     }
-    &___navbar1{
+    .navbar1{
         font-family: 'Castoro', serif;
         font-family: 'Merriweather', serif;
         font-family: 'Oswald', sans-serif;
