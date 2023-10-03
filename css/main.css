@@ -132,6 +132,19 @@
   font-family: "Castoro", serif;
 }
 
+.conteiner-principal-5 {
+  background-image: url(../asset/fondo.jpg);
+  color: white;
+}
+.conteiner-principal-5 .carrusell1p {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.conteiner-principal-5 .titulo-carruseles {
+  font-size: 25px;
+  font-family: "Zilla Slab", serif;
+}
+
 @media (min-width: 300px) and (max-width: 576px) {
   .map1 {
     width: 80%;

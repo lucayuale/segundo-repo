@@ -1,0 +1,13 @@
+.conteiner-principal-5{
+    background-image: url(../asset/fondo.jpg); 
+    color: white; 
+    .carrusell1p{
+        margin-left: 20%;
+        margin-right: 20%;
+        
+    }
+    .titulo-carruseles{
+        @include fuentes(25px);
+        font-family: 'Zilla Slab', serif;  
+    }
+}
