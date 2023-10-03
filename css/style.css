@@ -36,6 +36,11 @@
 }
 .conteiner-principal-2{
     background-image: url(../asset/fondo.jpg);
+    margin-right: 0%;
+    color: white;
+}
+.titulo-conocenos{
+    font-size: 20px;
 }
 .conteiner-principal-3{
     background-image: url(../asset/fondo.jpg);

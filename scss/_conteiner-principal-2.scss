@@ -1,6 +1,10 @@
 .conteiner-principal-2{
     background-image: url(../asset/fondo.jpg);
     @include margen(0%);
+    color: $blanco;
+    .titulo-conocenos{
+        @include fuentes(20px);
+    }
     .tarjetas{
         font-family: 'Castoro', serif;
         font-family: 'Merriweather', serif;
