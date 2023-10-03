@@ -1,6 +1,20 @@
 .conteiner-principal-5{
     background-image: url(../asset/fondo.jpg); 
     color: white; 
+    .logo{
+        @include alto-ancho(20%, 20%);
+    }
+    .navbar1{
+        font-family: 'Castoro', serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-family: 'Zilla Slab', serif;
+        color: $blanco;
+        @include fuentes(30px);
+    }
     .carrusell1p{
         margin-left: 20%;
         margin-right: 20%;
@@ -10,4 +24,5 @@
         @include fuentes(25px);
         font-family: 'Zilla Slab', serif;  
     }
+
 }
