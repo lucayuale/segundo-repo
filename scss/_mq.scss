@@ -1,9 +1,7 @@
 @media (min-width: 300px) and (max-width: 576px){
-    .logo{
-        @include alto-ancho(20%, 20%);
-    }
+
     .map1{
-        @include alto-ancho(80%, 80%);
+        @include alto-ancho(80%, 70%);
     }
 
 
@@ -16,9 +14,7 @@
     .map1{
         @include alto-ancho(80%, 70%);
     }
-    .logo{
-        @include alto-ancho(20%, 20%);
-    }
+
 
 
 

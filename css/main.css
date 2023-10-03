@@ -8,8 +8,8 @@
   margin-right: 8em;
 }
 .conteiner-principal .logo {
-  width: 10%;
-  height: 10%;
+  width: 20%;
+  height: 20%;
 }
 .conteiner-principal .navbar1 {
   font-family: "Castoro", serif;
@@ -37,8 +37,8 @@
   color: white;
 }
 .conteiner-principal-2 .logo {
-  width: 10%;
-  height: 10%;
+  width: 20%;
+  height: 20%;
 }
 .conteiner-principal-2 .pie2 {
   color: white;
@@ -70,8 +70,8 @@
   font-family: "Zilla Slab", serif;
 }
 .conteiner-principal-3 .logo {
-  width: 10%;
-  height: 10%;
+  width: 20%;
+  height: 20%;
 }
 .conteiner-principal-3 .list-1 {
   color: white;
@@ -129,13 +129,9 @@
 }
 
 @media (min-width: 300px) and (max-width: 576px) {
-  .logo {
-    width: 20%;
-    height: 20%;
-  }
   .map1 {
     width: 80%;
-    height: 80%;
+    height: 70%;
   }
 }
 /* tablet */
@@ -143,10 +139,6 @@
   .map1 {
     width: 80%;
     height: 70%;
-  }
-  .logo {
-    width: 20%;
-    height: 20%;
   }
 }
 /* PC */
