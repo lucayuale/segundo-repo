@@ -136,6 +136,21 @@
   background-image: url(../asset/fondo.jpg);
   color: white;
 }
+.conteiner-principal-5 .logo {
+  width: 20%;
+  height: 20%;
+}
+.conteiner-principal-5 .navbar1 {
+  font-family: "Castoro", serif;
+  font-family: "Merriweather", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: "Zilla Slab", serif;
+  color: white;
+  font-size: 30px;
+}
 .conteiner-principal-5 .carrusell1p {
   margin-left: 20%;
   margin-right: 20%;
