@@ -1,0 +1,35 @@
+.conteiner-principal-4{ 
+    background-image: url(../asset/fondo.jpg); 
+    color: $blanco; 
+        .navbar1{ font-family: 'Castoro', serif; 
+            font-family: 'Merriweather', serif; 
+            font-family: 'Oswald', sans-serif; 
+            font-family: 'Quicksand', sans-serif; 
+            font-family: 'Roboto Condensed', sans-serif; 
+            font-family: 'Yanone Kaffeesatz', sans-serif; 
+            font-family: 'Zilla Slab', serif; 
+            color: $blanco; 
+            @include fuentes(30px); 
+        } 
+        .logo{ @include alto-ancho(20%, 20%); 
+        } 
+        .formulario{ 
+            @include fuentes(30px); 
+            margin-left: 5%; 
+        } 
+        .parrafo-contacto{ 
+            font-family: 'Castoro', serif; 
+            font-family: 'Merriweather', serif; 
+            font-family: 'Oswald', sans-serif; 
+            font-family: 'Quicksand', sans-serif; 
+            font-family: 'Roboto Condensed', sans-serif; 
+            font-family: 'Roboto Slab', serif; 
+            font-family: 'Rubik', sans-serif; 
+            font-family: 'Yanone Kaffeesatz', sans-serif; 
+            font-family: 'Zilla Slab', serif; 
+            @include fuentes(20px); 
+        } 
+        .titulo-contactanos{ 
+            font-family: 'Castoro', serif; 
+        } 
+    }
